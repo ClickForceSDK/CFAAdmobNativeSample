@@ -74,8 +74,8 @@ public class MainActivity extends AppCompatActivity {
             }
         }).build();
 
-//        adLoader.loadAd(new PublisherAdRequest.Builder().build());
-        adLoader.loadAd(new PublisherAdRequest.Builder().addTestDevice("F579CE6636912343968AEA95B49FA927").build());
+        adLoader.loadAd(new PublisherAdRequest.Builder().build());
+//        adLoader.loadAd(new PublisherAdRequest.Builder().addTestDevice("").build());
     }
 
     private void populateUnifiedNativeAd(UnifiedNativeAd nativeAd, UnifiedNativeAdView adView){
